@@ -3,16 +3,15 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-function Welcome(props) {
-  return <button>Hola, {props.name}!! You are {props.age}</button>;
-}
 
-const element = <Welcome name="Bucchi jha" age ="20" />;
+
 
 ReactDOM.render(
-    
-  element,
+
+  
+  <App />,
   document.getElementById('root')
+
 );
 
 // If you want to start measuring performance in your app, pass a function
