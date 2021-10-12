@@ -8,12 +8,15 @@ function Navigation(){
             <Container>
             <Navbar.Brand className="text-white">Random</Navbar.Brand>
             <Button variant="primary" type="submit">Go</Button>
-                <Form.Control type="text" placeholder="Enter email" style={{width:"400pt"}} />
+                <input type="text" />
 
                 <Nav className="me-auto">
                     <Nav.Link className="text-white">Home</Nav.Link>
                     <Nav.Link className="text-white">Cart</Nav.Link>
+                    
                 </Nav>
+
+                <Button>Log In</Button>
             </Container>
         </Navbar>
     )
